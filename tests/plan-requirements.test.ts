@@ -21,7 +21,7 @@ describe("Plan.md portfolio requirements", () => {
   it("centralizes all portfolio content in data files", () => {
     expect(hero.name).toBe("JOSPHAT K NDHLOVU");
     expect(hero.stats).toEqual([
-      { value: 4, suffix: "+", label: "Published Play Store Apps" },
+      { value: 5, suffix: "+", label: "Published Play Store Apps" },
       { value: 250, suffix: "+", label: "Package Integrations" },
       { value: 3, suffix: "+", label: "Years Mobile Experience" },
     ]);
