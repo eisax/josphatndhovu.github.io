@@ -9,33 +9,27 @@ export interface ProjectItem {
 export const projects: ProjectItem[] = [
   {
     name: "Kayibay Wallet",
-    desc: "Production mobile business wallet and POS application built for African SMEs. Enables merchants to accept instant mobile money and card payments, share secure payment links, manage store inventory in real time, and disburse bill and supplier payments from a unified wallet.",
+    desc: "Helped develop kayibay mobile business wallet and POS application built for African SMEs. Enables merchants to accept instant mobile money and card payments, share secure payment links, manage store inventory in real time, and disburse bill and supplier payments from a unified wallet.",
     tags: ["Flutter", "Dart", "Mobile Wallet", "Payments", "POS"],
     link: "https://play.google.com/store/apps/details?id=com.kayibay.kayibaybusiness",
   },
   {
     name: "Havano POS",
-    desc: "Production mobile Point of Sale and payments application live on Google Play, integrated with enterprise ERP services. Features real-time sales processing, offline transaction queueing, inventory reconciliation, barcode scanning, and hardware receipt printing.",
+    desc: "Mobile Point of Sale and payments application live on Google Play, integrated with enterprise ERP services. Features real-time sales processing, offline transaction queueing, inventory reconciliation, barcode scanning, and hardware receipt printing.",
     tags: ["Flutter", "Dart", "Google Play", "POS", "Payments"],
     link: "https://play.google.com/store/apps/details?id=com.havano.pos.havano_pos&hl=en",
   },
   {
     name: "Tumela Seller",
-    desc: "Production merchant and seller mobile application live on Google Play for managing commercial stores, multi-channel product catalogs, customer sales orders, real-time inventory tracking, and payment reconciliations.",
+    desc: "Merchant and seller mobile application live on Google Play for managing commercial stores, multi-channel product catalogs, customer sales orders, real-time inventory tracking, and payment reconciliations.",
     tags: ["Flutter", "Dart", "Google Play", "Merchant", "E-Commerce"],
     link: "https://play.google.com/store/apps/details?id=shop.tumela.seller&hl=en",
   },
   {
     name: "PaGrill",
-    desc: "Live consumer mobile food ordering and checkout application on Google Play. Features real-time menu browsing, cart checkout, push notifications via Firebase Cloud Messaging, and digital payment gateway integrations.",
+    desc: "Consumer mobile food ordering and checkout application on Google Play. Features real-time menu browsing, cart checkout, push notifications via Firebase Cloud Messaging, and digital payment gateway integrations.",
     tags: ["Flutter", "Dart", "Google Play", "Payments", "Firebase"],
     link: "https://play.google.com/store/apps/details?id=shop.pagrill.user&hl=en",
-  },
-  {
-    name: "Showline Intelect",
-    desc: "Enterprise mobile application live on Google Play supporting commercial operations, customer account workflows, field business data synchronisation, and offline document drafts.",
-    tags: ["Flutter", "Android", "Google Play", "Enterprise", "Mobile App"],
-    link: "https://play.google.com/store/apps/details?id=zw.co.showlineintelect&hl=en",
   },
   {
     name: "Furrow.Payments",
@@ -63,13 +57,6 @@ export const projects: ProjectItem[] = [
     desc: "Comprehensive Dart utility library for validating, formatting, and detecting network carriers (Econet, NetOne, Telecel) for Zimbabwean phone numbers across mobile networks. Widely adopted across 250+ integrations for mobile form validation.",
     tags: ["Dart", "Flutter", "Validation", "Mobile", "Open Source"],
     github: "https://github.com/eisax/zim_phone_utils_dart",
-    link: "https://github.com/eisax/zim_phone_utils_dart",
-  },
-  {
-    name: "kg6-codex",
-    desc: "Modular, open-source AI Developer Assistant designed to automate, accelerate, and improve the software development lifecycle. Command-line tool helping developers review, understand, document, and refactor codebases.",
-    tags: ["TypeScript", "AI CLI", "Developer Tools", "Open Source"],
-    github: "https://github.com/kg6-oss/kg6-codex",
-    link: "https://github.com/kg6-oss/kg6-codex",
-  },
+    link: "https://pub.dev/packages/zim_phone_utils_dart",
+  }
 ];

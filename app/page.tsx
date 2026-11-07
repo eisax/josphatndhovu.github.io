@@ -50,22 +50,22 @@ export default async function Home() {
       <SectionWrapper id="skills" num="02">
         <SkillsSection />
       </SectionWrapper>
-      <SectionWrapper id="proficiency" num="03">
+      {/* <SectionWrapper id="proficiency" num="03">
         <ProficiencySection />
-      </SectionWrapper>
-      <SectionWrapper id="education" num="04">
+      </SectionWrapper> */}
+      <SectionWrapper id="education" num="03">
         <EducationSection />
       </SectionWrapper>
-      <SectionWrapper id="experience" num="05">
+      <SectionWrapper id="experience" num="04">
         <ExperienceSection />
       </SectionWrapper>
       {/* <SectionWrapper id="testimonials" num="07">
         <TestimonialsSection />
       </SectionWrapper> */}
-      <SectionWrapper id="projects" num="06">
+      <SectionWrapper id="projects" num="05">
         <ProjectsSection />
       </SectionWrapper>
-      <SectionWrapper id="contact" num="07">
+      <SectionWrapper id="contact" num="06">
         <ContactSection github={github} />
       </SectionWrapper>
     </PageShell>
